@@ -6,7 +6,8 @@
       "Bash(New-Item -ItemType Directory -Force \"c:\\\\_Development\\\\Foundation\\\\Starter\\\\.claude\\\\skills\")",
       "Bash(Out-Null)",
       "Bash(Write-Output \"Done\")",
-      "WebSearch"
+      "WebSearch",
+      "Bash(uv sync *)"
     ]
   }
 }

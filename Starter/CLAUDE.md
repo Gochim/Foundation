@@ -10,7 +10,8 @@ Do not add new frameworks without asking
 Starter/
 ├── backend/          # FastAPI (Python)
 │   ├── main.py
-│   ├── requirements.txt
+│   ├── pyproject.toml
+│   ├── uv.lock
 │   └── .venv/
 └── frontend/         # Vite + TypeScript + Tailwind
     ├── src/
