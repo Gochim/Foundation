@@ -2,6 +2,8 @@
 
 FastAPI backend + Vite/TypeScript/Tailwind frontend.
 
+Do not add new frameworks without asking
+
 ## Project Structure
 
 ```
@@ -15,21 +17,6 @@ Starter/
     │   ├── main.ts
     │   └── style.css
     └── package.json
-```
-
-## Running Locally
-
-**Backend** (port 8000):
-```powershell
-cd backend
-.venv\Scripts\activate
-uvicorn main:app --reload
-```
-
-**Frontend** (port 5173):
-```powershell
-cd frontend
-npm run dev
 ```
 
 ## Key Details
