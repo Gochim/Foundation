@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "70 kg",
+      "goal": "Marathon training - high-endurance athlete requiring carbohydrate loading with approximately 3,500 calories, 525g carbohydrates (60% of intake), 105g protein (12%), and 117g fat (30%)",
+      "restrictions": "No nuts or tree nuts due to allergy"
+    },
+    "solution_criteria": [
+      "Meal plan contains exactly 4 meals/snacks distributed throughout the day",
+      "Total daily calories and macronutrient targets are met within \u00b15% variance",
+      "All meals are practical to prepare and consume for an athlete in training",
+      "No nuts or tree nuts are included in any meal"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading, with specific macronutrient targets"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Maximize muscle gain and strength during heavy lifting training cycle",
+      "restrictions": "Vegetarian (no meat or fish)"
+    },
+    "solution_criteria": [
+      "Meal plan spans exactly 1 full day with all meals specified",
+      "Minimum 2.0g protein per kg bodyweight (170g total) distributed across meals with pre/post-workout timing",
+      "Includes at least 3 meals plus 1-2 snacks with realistic, vegetarian-friendly foods",
+      "Compact format with clear meal times and approximate macronutrient targets"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) with high protein requirements and specific training timing around workout windows"
+  },
+  {
+    "prompt_inputs": {
+      "height": "165 cm",
+      "weight": "52 kg",
+      "goal": "Maintain lean muscle while optimizing endurance performance for distance running",
+      "restrictions": "Vegetarian, no nuts or nut butters"
+    },
+    "solution_criteria": [
+      "Meal plan is compact and fits within 1 day",
+      "Prioritizes nutrient-dense foods over high volume to suit weight-sensitive athlete",
+      "Respects vegetarian diet and avoids nuts/nut butters",
+      "Supports endurance performance with appropriate carbohydrate and protein distribution"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a weight-sensitive athlete (gymnast or distance runner) with caloric restrictions and emphasis on nutrient density over volume"
+  }
+]
